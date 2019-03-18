@@ -1,0 +1,17 @@
+String to Array
+
+var str = "STRING";
+var arr = [];
+for(int i=0; i<=str.length; i++)
+    arr[i] = str.charAt(i);
+
+
+
+
+
+Array to String
+
+var str = "";
+var arr = ["S","T","R","I","G"];
+for(int i=0; i<=arr.length; i++)
+    str +=arr.charAt(i);
